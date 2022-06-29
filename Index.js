@@ -79,4 +79,4 @@ btn.onclick = () => {
 function greateUser() {
     console.dir(user)
 };
-//завдання - 2
+//завдання - 2 ---- Воно вже зроблено в цьому файлі!!!!!!!
