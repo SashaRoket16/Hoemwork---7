@@ -1,14 +1,14 @@
 //Завдання 1
 //import users from "C:/Users/Admin/Desktop/Програмирование/ДЗ/Homework - 7/1/script/user.js";
-function users(firstName, lastName, Login, bithday, Pasworld) {
+class CreatUser{
+constructor (firstName, lastName, Login, bithday, Pasworld) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.Login = Login;
     this.bithday = bithday;
     this.Pasworld = Pasworld;
 
-};
-
+}}
 const user = [];
 let btn = document.getElementById("bt");
 let bt2 = document.getElementById("bt2");
@@ -69,7 +69,7 @@ btn.onclick = () => {
 
         logg(),
         pasww(),
-        user.push(new users(
+        user.push(new CreatUser(
             funn = FU,
             luu = LU,
             lg,
